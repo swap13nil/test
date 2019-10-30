@@ -1,0 +1,72 @@
+<mvc:View controllerName="month.Monthclick.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						
+						<Panel>	
+					<Button type="Accept" text= "JAN " press = "onPress" id="JANUARY">
+					
+					</Button>	</Panel>
+						<Panel>
+							<Button type="Accept" text = "FEB " press = "onPress" tooltip="FEBRUARY" id="Accept_button" >
+							
+							</Button></Panel>
+							<Panel>
+							<Button type="Accept" text = "MARCH" press = "onPress" tooltip="This is Accept Button" id="MARCH" >
+								</Button>
+							</Panel>
+									<Panel>	
+					<Button type="Reject" text= "APRIL " press = "onPress" id="APRIL" >
+					
+					</Button>	</Panel>
+						<Panel>
+							<Button type="Accept" text = "MAY" press = "onPress" tooltip="This is Accept Button" id="MAY" >
+							
+							</Button></Panel>
+							<Panel>
+							<Button type="Accept" text = "JUNE" press = "onPress" tooltip="This is Accept Button" id="JUNE" >
+								</Button>
+							</Panel>
+							
+							
+							
+							
+							
+							
+								<Panel>	
+					<Button type="Accept" text= "JULY " press = "onPress" id="JULY" >
+					
+					</Button>	</Panel>
+						<Panel>
+							<Button type="Accept" text = "AUG " press = "onPress" tooltip="This is Accept Button" id="AUGUST" >
+							
+							</Button></Panel>
+							<Panel>
+							<Button type="Accept" text = "SEPT" press = "onPress" tooltip="This is Accept Button" id="SEPTEMBER" >
+								</Button>
+							</Panel>
+									<Panel>	
+					<Button type="Reject" text= "OCT " press = "onPress" id="OCTOBER" >
+					
+					</Button>	</Panel>
+						<Panel>
+							<Button type="Accept" text = "NOV" press = "onPress" tooltip="This is Accept Button" id="NOVEMBER" >
+							
+							</Button></Panel>
+							<Panel>
+							<Button type="Accept" text = "DEC" press = "onPress" tooltip="This is Accept Button" id="DECEMBER" >
+								</Button>
+							</Panel>
+						<Button
+				text="Confirm"
+				class="sapUiSmallMarginBottom"
+				press="handleConfirmationMessageBoxPress"
+				width="250px"/>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
