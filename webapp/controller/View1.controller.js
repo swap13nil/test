@@ -17,6 +17,7 @@ sap.ui.define([
 		sap.m.MessageBox.confirm(
 				"Approve purchase order 12345?", {
 					styleClass: bCompact ? "sapUiSizeCompact" : ""
+					//save
 				}
 			);
 		}
